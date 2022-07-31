@@ -1,0 +1,19 @@
+body {
+  margin: auto;
+}
+.mtg-card {
+  margin: auto;
+
+  margin-top: 25px;
+  width: 360px;
+  height: 520px;
+  background-color: #405040;
+  border-radius: 18px;
+}
+.card-content{
+    background-color: #FAFA00;
+    width:85%;
+    height: 85%;
+    border-radius: 18px;
+    margin:20px;
+}

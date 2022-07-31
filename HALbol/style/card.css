@@ -1,0 +1,240 @@
+@font-face {
+  font-family: mtg;
+  src: url(Magic-the-Gathering-Regular.ttf);
+}
+* {
+  font-family: mtg;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-content {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 500px;
+  height: 698px;
+  background-color: #cdcdcd;
+  border: #808080 solid 22px;
+  border-radius: 5%;
+}
+.card-brnd {
+  position: relative;
+  top: 10px;
+  left: 2.5%;
+  width: 95%;
+  height: 90%;
+  background-color: #faf5b6;
+  border-radius: 18px;
+}
+.card-header-line {
+  position: relative;
+  top: 15px;
+  left: 3px;
+  width: 95%;
+  height: 30px;
+  border-radius: 4px;
+  /* background-color: #f7ef88;
+  box-shadow: 2px 2px 4px #050505; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.card-upper-icon {
+  position: relative;
+  top: -1px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px #050505;
+  background-color: #fefe00;
+}
+.card-header-title {
+  width: 90%;
+  background-color: #aaff00;
+  height: 30px;
+  box-shadow: 2px 2px 4px #808080;
+  border-radius: 4px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding-left: 15px;
+  padding-top: 8px;
+  box-shadow: 2px 0px 4px #050505;
+}
+.card-img-container {
+  position: relative;
+  height: 295px;
+  top: 30px;
+  width: 90%;
+  left: 5%;
+  background-color: #faf5b6;
+  border: 2px solid #454545;
+}
+.card-middle-title {
+  position: relative;
+  width: 90%;
+  left: 5%;
+  background-color: #aaff00;
+  height: 40px;
+  top: 35px;
+  box-shadow: 2px 2px 4px #808080;
+  border-radius: 4px;
+}
+.card-description-container {
+  position: relative;
+  height: 240px;
+  top: 40px;
+  width: 90%;
+  left: 5%;
+  background-color: #fffbca;
+  border: 2px solid #454545;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px #606090;
+}
+.card-description-container h5 {
+  color: #4545ff;
+  margin: 6px;
+  font-size: 1.3em;
+}
+.card-description-container p {
+  color: #070785;
+  margin: 2px;
+  font-size: 0.9em;
+  padding: 1px;
+}
+.mtg-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #ffc996;
+  box-shadow: 1px 1px 2px #050505;
+  display: inline-block;
+}
+.mtgi-skull {
+  background: url("../assets/imgs/icons/tstSprite.png");
+}
+.mtgi-fireBall {
+  background: url("../assets/imgs/icons/fireball.png");
+}
+.mtgi-nr4 {
+  background: url("../assets/imgs/icons/four.png");
+}
+.btmlft-info {
+  position: relative;
+  width: 100px;
+  left: 320px;
+  height: 50px;
+  top: 65px;
+  background-color: #ff99ff;
+  border: 4px solid #fffbca;
+  border-radius: 6px;
+  box-shadow: 4px 4px 8px #050505, inset 3px 3px 6px #404040;
+}
+
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|¤¤¤¤¤¤¤¤¤                 PNG VERSION                  ¤¤¤¤¤¤¤¤¤|
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  */
+.mtg-card-container {
+  margin: 16px;
+  border: 4px solid #8090a0;
+  background: url("../assets/imgs/cards/blnkCard2.png");
+  width: 500px;
+  height: 698px;
+  animation: card-in 1s ease-out;
+  box-shadow: 8px 8px 18px #101040;
+}
+.mtg-bgrnd{
+  background: url("../assets/imgs/cards/mtg-card_back.png");
+  border: none;
+}
+.mtg-card-header {
+  position: relative;
+  width: 430px;
+  left: 35px;
+  height: 38px;
+  top: 38px;
+  /* background-color: pink;
+  opacity: 0.5;
+  border: red 1px solid; */
+  text-align: center;
+  border-radius: 12px;
+}
+.mtg-card-header h3 {
+  margin: 0;
+  text-align: center;
+  font-size: 1.8em;
+  padding: 3px;
+  display: inline-block;
+}
+.mtg-card-header .mtg-icon {
+  margin-top: 5px;
+}
+.mtg-card-image {
+  position: relative;
+  top: 42px;
+  left: 42px;
+  width: 415px;
+  height: 302px;
+  /* background-color: #fabe00;
+  opacity: 0.8;
+  border: 1px solid #202020; */
+  background: url("../assets/imgs/cards/mainImgBGRN.JPG");
+  background-size: 415px 302px;
+}
+.mtg-card-middle-title2 {
+  position: relative;
+  width: 425px;
+  left: 35px;
+  height: 38px;
+  top: 49px;
+  background-color: transparent;
+  text-align: left;
+  border-radius: 12px;
+  font-size: 22px;
+  padding: 8px;
+  padding-top: 12px;
+  font-weight: bold;
+}
+.mtg-card-description {
+  position: relative;
+  width: 415px;
+  left: 40px;
+  height: 195px;
+  top: 40px;
+  /* background-color: rgb(124, 4, 124);
+  opacity: 0.6;
+  border: red 1px solid; */
+  text-align: center;
+  border-radius: 2px;
+  padding: 3px;
+  text-align: left;
+}
+.mtg-card-smallbill {
+  position: relative;
+  width: 77px;
+  left: 380px;
+  height: 30px;
+  top: 25px;
+  /* background-color: rgb(2, 70, 22);
+  opacity: 0.9;
+  border: red 1px solid; */
+  text-align: center;
+  border-radius: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+@keyframes card-in {
+  0% {
+    transform: scale(0.3);
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
